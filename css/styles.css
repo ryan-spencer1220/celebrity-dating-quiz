@@ -1,14 +1,69 @@
-#answer {
+#seth-rogen {
   display: none;
+  margin: auto;
+  background-color: #edddd4;
 }
-
+#seth-rogen img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#alison-brie {
+  display: none;
+  margin: auto;
+  background-color: #edddd4;
+}
+#alison-brie img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#dwayne-johnson {
+  display: none;
+  margin: auto;
+  background-color: #edddd4;
+}
+#dwayne-johnson img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#madonna {
+  display: none;
+  background-color: #edddd4;
+}
+#madonna img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#lady-gaga {
+  display: none;
+  margin: auto;
+  background-color: #edddd4;
+}
+#lady-gaga img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+#john-hamm {
+  display: none;
+  margin: auto;
+  background-color: #edddd4;
+}
+#john-hamm img {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
 body {
   background-image: url("https://i.pinimg.com/originals/70/2e/47/702e47bab9b8fda3206ac2e38c06ac33.png");
-  position: fixed;
   width: 100%;
 }
 .container {
   background-color: #edddd4;
+  height: 100%;
 }
 
 .jumbotron {
