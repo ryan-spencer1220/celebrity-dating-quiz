@@ -1,0 +1,17 @@
+#answer {
+  display: none;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/70/2e/47/702e47bab9b8fda3206ac2e38c06ac33.png");
+  position: fixed;
+  width: 100%;
+}
+.container {
+  background-color: #edddd4;
+}
+
+.jumbotron {
+  background-color: #ef5d60;
+  text-align: center;
+}

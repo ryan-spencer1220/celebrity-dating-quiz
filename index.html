@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Celebrity Dating Quiz</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Celebrity Dating Quiz</h1>
+      </div>
+      <form id="celebrity-quiz">
+        <select id="ideal-date">
+          <option value="dinner">
+            Having dinner and drinks at a nice restaurant or cocktail bar.
+          </option>
+          <option value="movies">Going to the movies.</option>
+        </select>
+        <select id="personality-trait">
+          <option value="sense-of-humor">Sense Of Humor</option>
+          <option value="kindness">Kindness</option>
+        </select>
+        <select id="physical-trait">
+          <option value="eyes">Eyes</option>
+          <option value="arms">Arms</option>
+        </select>
+        <button type="submit" class="btn">Find My Celebrity!</button>
+      </form>
+      <div id="answer">
+        <div id="seth-rogen">
+          <h3>Seth Rogen!</h3>
+          <img
+            src="https://media.gq.com/photos/5cd987671f8a4e9c4ddda9aa/master/w_3250,h_4452,c_limit/seth-rogen-gq-cover-june-july-2019-2.jpg"
+            alt="Seth Rogen"
+          />
+        </div>
+        <div id="alison-brie">
+          <h3>Alison Brie!</h3>
+          <img
+            src="https://media1.popsugar-assets.com/files/thumbor/K8ppWu6xFbNK5prSul4rh5OAyAw/1509x243:2307x1041/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/13/947/n/1922398/a89f61c25e45c332a0d4a5.57491605_/i/Alison-Brie.jpg"
+            alt="Alison Brie"
+          />
+        </div>
+        <div id="dwayne-johnson">
+          <h3>Dwane Johnson!</h3>
+          <img
+            src="https://media.gq-magazine.co.uk/photos/5d138f34003d758c4eae59f8/master/pass/The-Rock-05-GQ-17May16_Gavin-Bond_b.jpg"
+            alt="Dwayne Johnson"
+          />
+        </div>
+        <div id="john-hamm">
+          <h3>John Hamm!</h3>
+          <img
+            src="https://media1.popsugar-assets.com/files/thumbor/K8ppWu6xFbNK5prSul4rh5OAyAw/1509x243:2307x1041/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/13/947/n/1922398/a89f61c25e45c332a0d4a5.57491605_/i/Alison-Brie.jpg"
+          />
+        </div>
+        <div id="lady-gaga">
+          <h3>Lady Gaga!</h3>
+          <img
+            src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/cm/15/06/54d115a645d98_-_hbz-march-2014-lady-gaga-03-carolina-herrera-md.jpg?crop=1xw:0.9995340167753961xh;center,top&resize=480:*"
+            alt="Lady Gaga"
+          />
+        </div>
+        <div id="madonna">
+          <h3>Madonna!</h3>
+          <img
+            src="https://www.geo.tv/assets/uploads/updates/2022-01-11/392763_1761448_updates.jpg"
+            alt="Madonna"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

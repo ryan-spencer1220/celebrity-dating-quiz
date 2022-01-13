@@ -1,0 +1,36 @@
+questions
+
+What's your ideal date?
+-having dinner and drinks at a nice restaurant or cocktail bar
+-going to the movies
+
+
+Which personality trait do you find most attractive in an S.O?
+-sense of humor
+-kindness
+
+
+Which physical trait do you find most attractive in an S.O?
+-eyes
+-arms
+
+
+celebrities
+
+male
+funny - seth rogen https://media.gq.com/photos/5cd987671f8a4e9c4ddda9aa/master/w_3250,h_4452,c_limit/seth-rogen-gq-cover-june-july-2019-2.jpg
+nice restaurant - jon hamm https://i.guim.co.uk/img/media/e7ef92d38932a0520133820d87df04de0021582f/0_1300_3500_2100/master/3500.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=71b2d19f3498e8d3396010080361a084
+arms - Dwayne Johnson https://media.gq-magazine.co.uk/photos/5d138f34003d758c4eae59f8/master/pass/The-Rock-05-GQ-17May16_Gavin-Bond_b.jpg
+
+
+female
+funny - alison brie https://media1.popsugar-assets.com/files/thumbor/K8ppWu6xFbNK5prSul4rh5OAyAw/1509x243:2307x1041/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/13/947/n/1922398/a89f61c25e45c332a0d4a5.57491605_/i/Alison-Brie.jpg
+nice restaurant - lady gaga https://hips.hearstapps.com/hbz.h-cdn.co/assets/cm/15/06/54d115a645d98_-_hbz-march-2014-lady-gaga-03-carolina-herrera-md.jpg?crop=1xw:0.9995340167753961xh;center,top&resize=480:*
+arms - Madonna https://www.geo.tv/assets/uploads/updates/2022-01-11/392763_1761448_updates.jpg
+
+/*if date === movies && trait = funny && physical = eyes 
+  seth rogen, alison brie
+else if date === dinner && trait === kindness && physical === eyes
+  jon hamm, lady gaga
+else 
+  dwayne johnson, madonna*/
